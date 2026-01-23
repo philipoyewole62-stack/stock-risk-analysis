@@ -74,5 +74,4 @@ The goal is to identify potential losses by applying historical simulation and V
 
 📌 Conclusion
 
-Historical simulation offers a straightforward and intuitive way to understand market risk.
-This project demonstrates how combining assets can reduce downside risk while maintaining exposure to returns.
+This project demonstrates how Value at Risk and diversification can be used to quantify and manage downside risk in equity portfolios. While the analysis highlights meaningful risk reduction through asset combination, it also acknowledges the limitations of single-period VaR estimates and the importance of considering correlation dynamics and tail risk in real-world applications.
