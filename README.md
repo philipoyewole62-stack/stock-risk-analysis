@@ -46,6 +46,32 @@ The goal is to identify potential losses by applying historical simulation and V
 
 ⸻
 
+⚠️ Limitations
+	•  Single-day risk horizon:
+       The Value at Risk (VaR) estimates in this project are based on a one-day holding period. For investors with longer holding periods, risk can accumulate over time, meaning actual losses over weeks or months may be higher than daily        VaR suggests.
+	•  Historical dependence:
+       The analysis relies on historical price movements and assumes past return patterns are indicative of future risk. Sudden structural market changes may not be captured.
+	•  Correlation stability assumption:
+       Diversification benefits assume stable correlations between assets. During periods of market stress, correlations can increase, reducing the effectiveness of diversification and leading to higher-than-expected losses.
+	•  VaR tail limitation:
+       VaR identifies a loss threshold but does not describe the severity of losses beyond that threshold, potentially understating extreme downside risk.
+
+⸻
+
+🚀 Future Improvements
+	•   Multi-day Value at Risk:
+        Extend the analysis by scaling VaR to longer holding periods (e.g., weekly or monthly) to reflect the investor's time horizon.
+	•   Rolling risk estimates:
+        Implement rolling VaR calculations to capture changes in volatility and risk dynamics over time.
+	•	Expected Shortfall (ES):
+        Complement VaR with Expected Shortfall to measure average losses beyond the VaR threshold, providing a more complete view of tail risk.
+	•	Correlation and stress testing:
+        Analyze how changing correlations during market stress affect portfolio risk and perform stress tests under extreme market scenarios.
+	•	Expanded portfolio analysis:
+       Include additional assets across different sectors to further evaluate diversification benefits.
+
+⸻
+
 📌 Conclusion
 
 Historical simulation offers a straightforward and intuitive way to understand market risk.
