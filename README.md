@@ -39,11 +39,11 @@ The goal is to identify potential losses by applying historical simulation and V
 
 ⸻
 
-📉 Key Insights
-	•	NVIDIA shows higher volatility and downside risk compared to JPMorgan
-	•	The combined portfolio has lower risk than holding NVIDIA alone
-	•	Diversification reduces overall portfolio risk
-
+🔑 Key Insights
+	•	NVIDIA exhibits higher volatility and downside risk compared to JPMorgan, reflected in its higher 5% Value at Risk (VaR) of 3.5%, while JPMorgan’s VaR is 1.7%, indicating more stable daily price movements.
+	•	Portfolio diversification reduces downside risk, as combining JPMorgan and NVIDIA into a single portfolio lowers the estimated VaR to 2.4%, compared to holding NVIDIA alone.
+	•	Risk reduction is achieved without eliminating growth exposure, demonstrating how diversification cushions portfolio losses by balancing high-volatility assets with more stable ones.
+	
 ⸻
 
 ⚠️ Limitations
